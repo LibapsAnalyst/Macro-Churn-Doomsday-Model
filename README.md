@@ -31,16 +31,14 @@
 ## 5. Repository Structure (파일 구조)
 ```text
 📦 Macro-Churn-Doomsday-Model
- ┣ 📂 data/                         # API 실탄 및 시뮬레이션 생성 데이터 적재소
- ┣ 📜 bok_api_etl.py                # 한국은행 금융 지표 수집 파이프라인
- ┣ 📜 kosis_api_etl.py              # 통계청 실물 지표 수집 파이프라인 (V2 Bypass)
- ┣ 📜 data_genesis.py               # 거시경제 연동형 하이브리드 결제 로그 시뮬레이터
- ┣ 📜 eda_pipeline.py               # Multi-JOIN 마트 구축 및 Doomsday 상관관계 시각화
- ┣ 📜 modeling_xai.py               # LightGBM 예측 모델링 및 SHAP 의사결정 해독기
- ┗ 📜 README.md                     # 프로젝트 명세서
+┣ 📂 data/                         # API 실탄 및 시뮬레이션 생성 데이터 적재소
+┣ 📜 bok_api_etl.py                # 한국은행 금융 지표 수집 파이프라인
+┣ 📜 kosis_api_etl.py              # 통계청 실물 지표 수집 파이프라인 (V2 Bypass)
+┣ 📜 data_genesis.py               # 거시경제 연동형 하이브리드 결제 로그 시뮬레이터
+┣ 📜 eda_pipeline.py               # Multi-JOIN 마트 구축 및 Doomsday 상관관계 시각화
+┣ 📜 modeling_xai.py               # LightGBM 예측 모델링 및 SHAP 의사결정 해독기
+┗ 📜 README.md                     # 프로젝트 명세서
 
-## 6. Quick Start (실행 가이드)
-```bash
 # 1. 의존성 패키지 설치
 pip install pandas requests numpy matplotlib lightgbm shap scikit-learn
 
@@ -51,6 +49,8 @@ python data_genesis.py      # 하이브리드 시뮬레이션 데이터 생성
 python eda_pipeline.py      # 데이터 병합 및 시각화 차트 사출
 python modeling_xai.py      # ML 학습 및 SHAP 분석
 
-* Architect: Dae-hwan Kim (LibapsAnalyst)
-* Email: LibapsAnalyst@gmail.com
-* GitHub: [https://github.com/LibapsAnalyst](https://github.com/LibapsAnalyst)
+Architect: Dae-hwan Kim (LibapsAnalyst)
+
+Email: LibapsAnalyst@gmail.com
+
+GitHub: https://github.com/LibapsAnalyst
