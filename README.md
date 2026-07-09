@@ -51,6 +51,6 @@ python modeling_xai.py      # ML 학습 및 SHAP 분석
 
 Architect: Dae-hwan Kim (LibapsAnalyst)
 
-Email: LibapsAnalyst@gmail.com
+Email: [LibapsAnalyst@gmail.com](LibapsAnalyst@gmail.com)
 
-GitHub: https://github.com/LibapsAnalyst
+GitHub: [https://github.com/LibapsAnalyst](https://github.com/LibapsAnalyst)
