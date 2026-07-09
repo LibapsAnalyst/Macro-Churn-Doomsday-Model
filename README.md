@@ -38,3 +38,19 @@
  ┣ 📜 eda_pipeline.py               # Multi-JOIN 마트 구축 및 Doomsday 상관관계 시각화
  ┣ 📜 modeling_xai.py               # LightGBM 예측 모델링 및 SHAP 의사결정 해독기
  ┗ 📜 README.md                     # 프로젝트 명세서
+
+## 6. Quick Start (실행 가이드)
+```bash
+# 1. 의존성 패키지 설치
+pip install pandas requests numpy matplotlib lightgbm shap scikit-learn
+
+# 2. 파이프라인 순차 기동
+python bok_api_etl.py       # 한국은행 API 적재
+python kosis_api_etl.py     # 통계청 API 적재
+python data_genesis.py      # 하이브리드 시뮬레이션 데이터 생성
+python eda_pipeline.py      # 데이터 병합 및 시각화 차트 사출
+python modeling_xai.py      # ML 학습 및 SHAP 분석
+
+* Architect: Dae-hwan Kim (LibapsAnalyst)
+* Email: LibapsAnalyst@gmail.com
+* GitHub: [https://github.com/LibapsAnalyst](https://github.com/LibapsAnalyst)
