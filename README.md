@@ -1,6 +1,8 @@
 # 📉 Macro-Churn-Doomsday: VIP Liquidity Defense Model
 > **거시경제 충격 지수(Macro-Stress) 기반 VIP 고객 자산 방어 및 이탈 예측 아키텍처**
 
+> 📊 [Executive Summary: Notion 포트폴리오로 이동]([노션_링크](https://exuberant-hydrogen-2ce.notion.site/Macro-Churn-Doomsday-VIP-Liquidity-Defense-Model-39a38a5dc610804280ffebe279059ee5?source=copy_link))
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![LightGBM](https://img.shields.io/badge/LightGBM-Advanced-red.svg)
 ![SHAP](https://img.shields.io/badge/SHAP-XAI-yellow.svg)
