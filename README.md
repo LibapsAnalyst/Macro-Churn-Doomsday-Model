@@ -24,9 +24,9 @@
 4. **Phase 4 (ML & XAI):** `LightGBM`을 통한 이탈 예측 및 `SHAP`을 활용한 거시경제 지표의 인과적 기여도 디코딩.
 
 ## 4. Key Findings & Business Impact
-* **High-Performance Prediction:** LightGBM 모델을 통해 VIP 고객의 이탈 확률을 **ROC-AUC 0.9940**의 압도적 성능으로 예측.
-* **Explainable AI (XAI):** SHAP Value 분석 결과, 고객의 과거 결제액(`prev_spend`)이나 내부 등급(`vip_tier`)보다 **기준금리(`interest_rate`)와 거시 스트레스 지수(`macro_stress_idx`)가 이탈에 가장 치명적인 영향을 미치는 원인**임을 수학적으로 증명.
-* **Business Action:** 금리 3.0% 돌파 국면 진입 시, 고위험군 VIP를 대상으로 한 선제적 락인(Lock-in) 금융 상품 제안 및 유동성 방어 프로토콜 가동 근거 확보.
+* **Pipeline Validation (시나리오 역추적 검증):** LightGBM 모델을 적용하여, 합성 데이터에 주입된 '거시경제 붕괴 조건'을 기계가 정확히 학습하고 역추적할 수 있는지 시스템 신뢰도(ROC-AUC 0.99 수준)를 테스트 및 검증.
+* **Explainable AI (XAI) 프레임워크 구축:** SHAP Value 분석을 통해 과거 결제액(`prev_spend`)보다 기준금리(`interest_rate`)와 거시 스트레스 지수(`macro_stress_idx`)가 VIP 이탈에 미치는 비선형적 타격 인과관계를 시각적으로 해석. (실무 데이터 투입 시 즉각 구동 가능한 분석 뼈대 완성)
+* **Business Action (위기 대응 시나리오):** 실제 거시경제 지표가 둠스클록 임계점(금리 3.0% 등)을 돌파하는 국면 진입 시, 고위험군 VIP를 대상으로 한 선제적 락인(Lock-in) 금융 상품 제안 및 유동성 방어 프로토콜 가동 근거 확보.
 
 ## 5. Repository Structure (파일 구조)
 ```text
